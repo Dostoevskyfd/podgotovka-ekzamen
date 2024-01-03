@@ -1,0 +1,369 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background: #D3CBC5;
+    
+height: 79px;
+}
+.logotip{
+    width: 1440px;
+    margin: 50px auto;
+
+}
+.logo{
+    margin-top: 32px;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ height: 100%;
+ min-height: 100%;
+ width: 1400px;
+ height: auto !important;
+    margin: 0 auto 0 auto;
+}
+/* подвал и шапка сайта*/
+header, footer{
+    height: 100px;
+    background-color:#D9D9D9;;
+}
+footer{
+
+    text-align: center;
+    height: 100%; 
+    width: 1440px;
+}
+header{
+    display: flex;
+    text-align: center;
+    width: 1440px;
+height: 79px;
+}
+.logo{
+    margin-top: 32px;
+    margin-left: 150px;
+}
+.black-text {
+    color: black;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .white-first-letter {
+    color: white;
+    background-color: black;
+    display: inline-block;
+  }
+
+/* меню сайта */
+.menu{
+    margin-top: 30px;
+margin-left: 327px;
+display: flex;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    margin-right: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.menu-item a{
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.cartinki{
+    margin-top: 30px;
+    margin-left: 327px;
+}
+main{
+    background-color: #fff;
+flex-grow: 1;
+}
+.koech{
+    width: 1440px;
+    height: 391px;
+}
+.logofinsh{
+    margin-top: 55px;
+
+}
+.inform{
+    margin-top:45px;
+
+}
+.podpih{
+    color: #1B1A1A;
+
+text-align: center;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px;
+}
+.inform_text{
+    color: #5E5E5E;
+   
+text-align: center;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; 
+}
+.input_btn{
+    margin-top: 15px;
+    text-align: center;
+}
+.input_bb{
+    width: 275px;
+height: 37px;
+border-radius: 4px;
+border: 0.8px solid #5A5A5A;
+}
+.footer_btn{
+    width: 127px;
+height: 37px;
+border-radius: 4px;
+border: 0.8px solid #5A5A5A;
+
+color: #1B1A1A;
+
+font-family: 'Nunito Sans', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+}
+.cotr{
+    margin-left: 10px;
+}
+.kaka{
+
+margin-left: 150px;
+display: flex;
+}
+.katalog{
+    margin-top: 55px;
+    margin-left: 10px;
+    color: #9A6437;
+
+    font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+}
+.line{
+margin-top: 70px;
+}
+.menu-tovara{
+    display: flex;
+}
+.lychshie{
+    margin-left: 150px;
+    margin-top: 21px;
+    display: flex;
+    color: #1B1A1A;
+
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+}
+.tovar{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+margin-right: 20px; /* 375% */
+    
+}
+.tovar:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+font-weight: 76px;
+line-height: 60px;
+margin-right: 20px; 
+}
+.hui{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 580px;
+    flex-direction: row;
+}
+
+/*Карточки*/
+.cards{
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-left: 20px;
+}
+.text-card{
+    margin-top: 6px;
+ 
+    color: #282828;
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+}
+.zvezdochki{
+    margin-left: 122px;
+    margin-top: 20px;
+}
+.podsvetochka{
+    width: 270px;
+height: 258px;
+text-align: center;
+border-radius: 20px;
+background: #F7F7F7;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.img-card{
+    width: 250px;
+height: 246px;
+}
+.name_kupit{
+    width: 240px;
+height: 33px;
+background: #1C1B1B;
+margin-left: 10px;
+margin-top: -23px;
+
+}
+.dollors{
+    display: flex;
+    flex-direction: row;
+}
+.pay{
+    display: flex;
+    flex-direction: row;
+    
+}
+.save-pay{
+    color: #737373;
+    font-family: 'Nunito Sans', sans-serif;font-family: 'Nunito Sans', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+text-decoration-line:line-through;
+}
+.no-save-pay{
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.one-card{
+    width: 270px;
+height: 345px;
+font-weight: 600;
+
+margin-top: 45px;
+font-family: Nunito Sans;
+font-size: 18px;
+}
+
+/*бургерное меню*/
+.navbar-toggler{
+    display: none;
+}
+
+/*АДАПТИВНАЯ ЧАСТЬ*/
+
+@media (max-width: 1110px) {
+    body{
+        width: 1110px;
+    }
+    .container{
+        width: auto;
+        padding: 0 30px;
+    }
+    .cotr{
+        margin-left: 2px;
+    }
+    .kaka{
+
+        margin-left: 50px;
+        }
+    .lychshie{
+
+        margin-left: 140px;
+        flex-direction: row;
+    }
+    .hui{
+        margin-left: 200px;
+    }
+    .menu-tovara{
+        display:block;
+    }
+    .cards{
+        display:block;
+        width: 1240px;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+        margin-left: 150px;
+    }
+    .inform_text{
+        text-align: center;
+    }
+}
+
+@media (max-width:992px) {
+    .menu-wrapper{
+        flex-wrap: wrap;
+       }
+    
+        .logo{
+          
+           width: 100%;
+           margin-left: 20px;
+        }
+    
+}
+@media (max-width:600px){
+.basket,
+    .menu{
+        display: block;
+        
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+}
+.show{
+    display: block;
+}
